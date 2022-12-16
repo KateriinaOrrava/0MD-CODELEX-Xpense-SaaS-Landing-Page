@@ -6,6 +6,8 @@
 
 html {
     background-color: var(--light);
+    display: flex;
+    justify-content: center;
 }
 
 body {
@@ -593,4 +595,145 @@ p.card-text-price-3-diamond-plan {
     align-items: center;
     height: 558px;
     width: 1870px;
+}
+
+.testimonial-header {
+    font-size: 96px;
+    line-height: 96px;
+    width: 920px;
+
+}
+
+.testimonial-slider {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 52px;
+}
+
+.testimonial-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 250px;
+    border-radius: 12px;
+    border: 1px solid #F5F5F5
+}
+
+.testimonial-card-content {
+    height: 199px;
+    width: 293px;
+    margin: 26px 29px 25px 28px;
+}
+
+.testimonial-text {
+    font-size: 18px;
+    line-height: 29px;
+    text-align: left;
+}
+
+.author {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+
+    margin-top: 24px;
+}
+
+.author img {
+    height: 30px;
+    width: 30px;
+    padding: 0;
+    margin: 0 12px 0 0;
+}
+
+.author p {
+    font-weight: bold;
+}
+
+.author p .rank {
+    font-weight: normal;
+    color: (--light)
+}
+
+.dots {
+    display: flex;
+    flex-direction: row;
+    width: 92px;
+    height: 12px;
+}
+
+.dots img {
+    height: 12px;
+    width: 12px;
+    margin-left: 7.5px;
+}
+
+
+/*banner*/
+.banner {
+    display: flex;
+    height: 900px;
+    width: 1440px;
+    background-color: var(--main-color);
+    background-image: url(images/Blob.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 324px;
+    width: 920px;
+
+}
+
+.banner-header {
+
+    font-weight: 700;
+
+    width: 920px;
+    height: 144px;
+    color: white;
+    margin-bottom: 24px;
+}
+
+.banner-small-text {
+    font-size: 36px;
+    color: white;
+    line-height: 36px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    width: 920px;
+    height: 36px;
+}
+
+.banner-button {
+    background-color: white;
+    color: var(--main-color);
+    border: 2px solid var(--main-color);
+    height: 48px;
+    width: 160px;
+    border-radius: 8px;
+    text-align: left;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.banner-button:hover {
+    background-color: var(--main-color);
+    color: white;
+    border: 2px solid white;
+    height: 48px;
+    width: 160px;
+    border-radius: 8px;
+    text-align: left;
+    font-size: 16px;
+    line-height: 26px;
 }
