@@ -677,9 +677,10 @@ p.card-text-price-3-diamond-plan {
     height: 900px;
     width: 1440px;
     background-color: var(--main-color);
-    background-image: url(images/Blob.png);
+    background-image: url(images/banner-llustrator.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-position: 50% 90%;
+    background-size: auto;
     align-items: center;
     justify-content: center;
 }
